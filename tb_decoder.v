@@ -1,6 +1,6 @@
 `timescale 1ns/1ns 
 
-module tb_decoder();
+module tb_latch_1();
 
 reg in1;
 reg in2;
