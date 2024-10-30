@@ -1,4 +1,4 @@
-module decoder
+module latch_1
 (
 input wire in1 ,
 input wire in2 ,
