@@ -1,10 +1,10 @@
-module end_top		//VGAͼ����ʾ����ģ�飬����Ҫע�������������ǰ��ӵ�ԭʼʱ�ӣ�û����PLL��Ƶ��ʱ�ӣ�
-(								//����Ҫע�⣬����Ҫ��ʾ�����磩256x256��ͼ����Ҫ�޸ĵĵط���
-	input CLK_40M,					//1������µ�mif�ļ�
-	input RSTn,					//2���ı�ԭ���Rom��λ��
+module end_top		
+(								
+	input CLK_40M,					
+	input RSTn,					
 
-	output end_Vga_green,			//3���޸�Vga_control������λ��
-	output end_Vga_blue,			//4����ԭ���Rom�趨�������µ�mif�ļ�
+	output end_Vga_green,			
+	output end_Vga_blue,			
 	output end_Vga_red,
 	output end_Hsync_sig,
 	output end_Vsync_sig
