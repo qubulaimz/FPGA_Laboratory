@@ -1,10 +1,10 @@
-module start_top		//VGAͼ����ʾ����ģ�飬����Ҫע�������������ǰ��ӵ�ԭʼʱ�ӣ�û����PLL��Ƶ��ʱ�ӣ�
-(								//����Ҫע�⣬����Ҫ��ʾ�����磩256x256��ͼ����Ҫ�޸ĵĵط���
-	input CLK_40M,					//1������µ�mif�ļ�
-	input RSTn,					//2���ı�ԭ���Rom��λ��
+module start_top		
+(								
+	input CLK_40M,				
+	input RSTn,					
 	
-	output start_Vga_green,			//3���޸�Vga_control������λ��
-	output start_Vga_blue,			//4����ԭ���Rom�趨�������µ�mif�ļ�
+	output start_Vga_green,		
+	output start_Vga_blue,			
 	output start_Vga_red,
 	output start_Hsync_sig,
 	output start_Vsync_sig
